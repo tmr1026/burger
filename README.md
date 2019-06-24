@@ -8,13 +8,14 @@ The user may enter any burger name to add it to the menu. This also adds the new
 
 ## Demo
 
-The demo of the burger eating application can be found [here](https://salty-sands-53403.herokuapp.com/).
+The demo of the burger eating application can be found [here](https://fathomless-peak-60411.herokuapp.com/).
 
 ## Installation
-
+heroku git:remote -a
 To run the application locally, first clone this repository with the following command.
 
-	git clone git@github.com:angrbrd/eat-da-burger.git
+git clone git@github.com:tmr1026/burger.git
+
 	
 Next, install the application dependencies.
 
