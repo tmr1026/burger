@@ -1,5 +1,5 @@
 INSERT INTO burgers
-    (burger_name, devoured)pwd
+    (burger_name, devoured)
 VALUES
     ("Jive Turkey", false),
     ("Wild Caught Salmon", false),

@@ -9,8 +9,8 @@ var orm = {
         })
     },
 
-    updateOne: function (tableInput, condition, cb) {
-        connection.query('UPDATE ' + tableInput + ' SET devoured=true WHERE id=' + condition + ';', function (err, result) {
+    updateOne: function (condition, cb) {
+        connection.query('UPDATE burgers SET devoured= true WHERE id=' + condition + ';', function (err, result) {
             if (err) throw err;
             cb(result);
         })
