@@ -5,6 +5,10 @@ var burger = require('../models/burger.js');
 
 // Routes
 router.get("/", function (req, res) {
+    res.redirect("index")
+});
+
+router.get("/index", function (req, res) {
     burger.selectAll(function (burger_data) {
         res.render("index", { burger_data});
     });
